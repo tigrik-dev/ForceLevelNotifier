@@ -1,0 +1,6 @@
+*.lnk
+BuildCache/
+**/PublishedFileId.ID
+*.XCOM_suo
+*.suo
+*.exe

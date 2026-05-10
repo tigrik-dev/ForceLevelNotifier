@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>0c35fc3c-f7d4-4cf2-a452-e142804f2938</Guid>
+    <Name>ForceLevelNotifier</Name>
+    <Description>ForceLevelNotifier</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ForceLevelNotifier</AssemblyName>
+    <RootNamespace>ForceLevelNotifier</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    
+    
+    <Folder Include="Config\" />
+    <Folder Include="Config\Base\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Content\" />
+    <Folder Include="ContentForCook\" />
+    <Folder Include="Src\ForceLevelNotifier\" />
+    <Folder Include="Src\ForceLevelNotifier\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ContentOptions.json" />
+    <Content Include="Config\Base\XComEditor.ini" />
+    <Content Include="Config\Base\XComEngine.ini" />
+    <Content Include="Config\Base\XComGame.ini" />
+    <Content Include="Config\XComTemplateCreator.ini" />
+    <Content Include="Config\XComTemplateEditor.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Localization\ForceLevelNotifier.int" />
+    <Content Include="Src\extra_globals.uci" />
+    <Content Include="Src\ForceLevelNotifier\Classes\X2DLCInfo_ForceLevelNotifier.uc" />
+    <Content Include="Src\ForceLevelNotifier\Classes\Help.uc" />
+    <Content Include="Src\ForceLevelNotifier\Classes\ConfigEngine.uc" />
+  </ItemGroup>
+  <PropertyGroup>
+    <SolutionRoot>$(MSBuildProjectDirectory)\..\</SolutionRoot>
+    <ScriptsDir>$(SolutionRoot).scripts\\</ScriptsDir>
+    <BuildCommonRoot>$(ScriptsDir)X2ModBuildCommon\</BuildCommonRoot>
+  </PropertyGroup>
+  <Import Project="$(BuildCommonRoot)XCOM2.targets" />
+</Project>

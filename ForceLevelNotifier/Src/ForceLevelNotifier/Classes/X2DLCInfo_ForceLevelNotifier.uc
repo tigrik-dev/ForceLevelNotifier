@@ -1,0 +1,1 @@
+class X2DLCInfo_ForceLevelNotifier extends X2DownloadableContentInfo;
