@@ -1,0 +1,11 @@
+[AlertWatcherActor]
+sForceIncreased = "Force Level increased to <XGParam:IntValue0>"
+
+[UIS_MCM]
+sModName = "Force Level Notifier"
+
+sGeneralSettings_MCMText = "General Settings"
+
+NOTIFY_FORCE_LEVEL_Label = "Show notifications when Force Level increases"
+PAUSE_FORCE_LEVEL_Label = "Pause scanning when Force Level increases"
+MIN_FORCE_LEVEL_PAUSE_Label = "Min Force Level to pause scanning"
