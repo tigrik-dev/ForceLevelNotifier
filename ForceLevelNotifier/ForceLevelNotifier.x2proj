@@ -59,5 +59,7 @@
     <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Slider.uc" />
     <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Spinner.uc" />
     <Content Include="Src\ModConfigMenuAPI\Classes\UIAlertPanel_ShowEnemies.uc" />
+    <Content Include="PublishedFileId.ID" />
+    <Content Include="Localization\ForceLevelNotifier.esn" />
   </ItemGroup>
 </Project>
