@@ -61,5 +61,6 @@
     <Content Include="Src\ModConfigMenuAPI\Classes\UIAlertPanel_ShowEnemies.uc" />
     <Content Include="PublishedFileId.ID" />
     <Content Include="Localization\ForceLevelNotifier.esn" />
+    <Content Include="Localization\ForceLevelNotifier.chn" />
   </ItemGroup>
 </Project>
